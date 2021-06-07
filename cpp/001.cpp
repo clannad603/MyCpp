@@ -19,6 +19,7 @@ int main(){
         resut.mins = 60+resut.mins;
     }
     cout<<resut.hour<<' '<<resut.mins<<endl;
+
     return 0;
 }
 
