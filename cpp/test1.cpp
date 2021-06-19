@@ -9,6 +9,8 @@ template<>
 struct Factorial<1> {
 	enum {result = 1};
 };
+
+
 int main(){
     auto s = Factorial<3>::result;
     cout<<s;
